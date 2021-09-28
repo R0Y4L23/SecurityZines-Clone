@@ -1,10 +1,9 @@
 import React from 'react'
+import Home from "./Screens/Home.js"
 
 const App = () => {
   return (
-    <div className="text-green-400">
-      Hello world
-    </div>
+    <Home/>
   )
 }
 

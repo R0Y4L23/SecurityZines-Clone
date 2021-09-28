@@ -1,0 +1,129 @@
+import React from 'react'
+
+const Home = () => {
+    return (
+        <>
+            <div className="ff text-center bg-gray-800">
+                <h1 className="text-6xl underline text-red-600 font-semibold py-8">Security Zines</h1>
+                <p className="text-green-600 text-2xl pb-8">Simple explanations for security topics by <span
+                        className="text-blue-600 underline">Subham</span></p>
+            </div>
+            <div className="text-gray-800 ff text-2xl mx-72 my-16 border-dashed border-gray-800 border-4 p-5 rounded-3xl">
+                <span className="font-bold underline">SecurityZines</span> are new way of learning security concepts, check the collection of Zines down
+                below. You can get them all in a bundle or individually. But why should you read it ? Because, its
+                proven that graphics has more persistent memory than text.
+            </div>
+            <div className="flex justify-evenly">
+                <div className="w-1/3">
+                    <p className="ff text-gray-800 text-4xl text-center py-5">Upcoming ...</p>
+                    <img src="https://securityzines.com/assets/img/CatCreatesBurpExtenderPlugins.png" alt="" srcset="" className="w-2/3 shadow-2xl mx-auto" />
+                </div>
+                <div className="w-1/3">
+                    <p className="ff text-gray-800 text-4xl text-center py-5">New Launch !!!</p>
+                    <div className="w-full flex justify-evenly mt-10">
+                    <img src="https://securityzines.com/assets/img/zines/docker.jpg" alt="" srcset="" className="w-1/3 shadow-2xl" />
+                    <img src="https://securityzines.com/assets/img/flyers/downloads/idor.jpg" alt="" srcset="" className="w-1/3 shadow-2xl" />
+                    </div>
+                </div>
+            </div>
+           <p className="ff text-gray-800 text-6xl text-center pt-16 mb-16">Zines</p>
+           <div className="mx-auto w-4/5 grid grid-cols-4 gap-10">
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+                   <p className="ff text-blue-700 text-3xl text-center py-5 underline">Security Zines Bundle</p>
+               </div>  
+           </div>
+           <p className="ff text-gray-800 text-6xl text-center pt-16 mb-16">Flyers</p>
+           <div className="mx-auto w-4/5 grid grid-cols-4 gap-10">
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>  
+           </div>
+           <div className="mx-auto w-4/5 bg-gray-800 rounded-3xl px-10 pb-10 mt-16 mb-16">
+           <p className="ff text-white text-6xl text-center pt-8 mb-8">Some of them, you can print too.</p>
+           <div className="grid grid-cols-4 gap-10">
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+               <div>
+                   <img src="https://securityzines.com/assets/img/zines/bundle.png" alt=""/>
+               </div>
+            </div>
+            </div>
+        </>
+    )
+}
+
+export default Home
